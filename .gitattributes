@@ -1,0 +1,18 @@
+# Normalize line endings
+*.py linguist-detectable 
+
+*.sh text eol=lf
+**/*.py linguist-detectable
+
+node_modules/* linguist-vendored
+*.html linguist-vendored
+
+*.md linguist-documentation
+*.htm linguist-vendored
+dist/* linguist-vendored
+
+*.gif binary
+Cargo.lock linguist-generated
+*.jpg binary
+
+# eof a3ba2496
